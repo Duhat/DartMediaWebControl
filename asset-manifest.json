@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DartMediaWebControl/static/css/main.848a9a4e.css",
+    "main.js": "/DartMediaWebControl/static/js/main.d5a9530a.js",
+    "static/js/488.39779854.chunk.js": "/DartMediaWebControl/static/js/488.39779854.chunk.js",
+    "index.html": "/DartMediaWebControl/index.html",
+    "main.848a9a4e.css.map": "/DartMediaWebControl/static/css/main.848a9a4e.css.map",
+    "main.d5a9530a.js.map": "/DartMediaWebControl/static/js/main.d5a9530a.js.map",
+    "488.39779854.chunk.js.map": "/DartMediaWebControl/static/js/488.39779854.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.848a9a4e.css",
+    "static/js/main.d5a9530a.js"
+  ]
+}
