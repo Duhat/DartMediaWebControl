@@ -1,0 +1,100 @@
+/* Основные стили для Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(145deg, #1f1f1f, #292929); 
+    color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;  /* Разрешаем элементы переноса на новую строку */
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 15px;
+  }
+  
+  img {
+    width: 100px;
+   
+  }
+  .login_bytton{
+    background-color: rgb(163, 0, 0);
+  }
+  .navbar__search input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    background-color: #2a2a2a;
+    border: 2px solid #555;
+    color: #f1f1f1;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.2s;
+    flex-grow: 1; /* Чтобы поле поиска расширялось, заполняя доступное пространство */
+  }
+  
+  .navbar__search input:focus {
+    border-color:  rgb(163, 0, 0);
+  }
+  
+  .navbar__auth button {
+    padding: 0.75rem 1.25rem;
+    background-color: rgb(163, 0, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  
+  .navbar__auth button:hover {
+    
+    transform: scale(1.05);
+  }
+  
+  /* Адаптивность для Navbar */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Выстраиваем элементы по вертикали */
+      align-items: flex-start; /* Выравниваем по левому краю */
+      padding: 1rem;
+    }
+  
+    .navbar__logo h1 {
+      font-size: 1.5rem; /* Уменьшаем размер логотипа */
+      margin-right: 0; /* Убираем отступ справа */
+      margin-bottom: 1rem; /* Добавляем отступ снизу */
+    }
+  
+    .navbar__search {
+      width: 100%; /* Поле поиска теперь занимает всю ширину */
+      margin-bottom: 1rem; /* Добавляем отступ снизу */
+    }
+  
+    .navbar__auth button {
+      width: 100%; /* Кнопка будет растягиваться на всю ширину */
+      margin-top: 1rem; /* Добавляем отступ сверху */
+    }
+  }
+  
+  /* Для очень маленьких экранов (например, мобильных телефонов) */
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 0.5rem;
+    }
+  
+    .navbar__logo h1 {
+      font-size: 1.2rem; /* Логотип становится еще меньше */
+    }
+  
+    .navbar__auth button {
+      padding: 0.5rem;
+    }
+  
+    .navbar__search input {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  

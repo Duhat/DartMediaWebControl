@@ -1,0 +1,32 @@
+.categories {
+    padding: 20px;
+  }
+  
+  .categories-list {
+    list-style: none; /* Убираем маркеры списка */
+    display: block; /* Делаем список вертикальным */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category {
+    padding: 10px 20px;
+    cursor: pointer;
+    
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    color: white;
+    margin-bottom: 10px; 
+  }
+  
+  .category:hover {
+    background-color: rgba(163, 0, 0, 0.795);
+    color: #3d3d3d;
+  }
+  
+  .category.active {
+    background-color: rgb(163, 0, 0); 
+    color: #3d3d3d; 
+    font-weight: bold;
+    
+  }

@@ -1,0 +1,94 @@
+/* Стили для страницы авторизации */
+.login-page {
+  background-color: #121212; /* Более глубокий черный */
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-form {
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 90%; /* Убедимся, что форма занимает всю ширину */
+  text-align: left; /* Выравнивание текста в полях */
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 5px;
+  color: #f1f1f1;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+input:focus {
+  border-color: rgb(163, 0, 0); /* Акцент на фокус */
+}
+
+button {
+  background-color: rgb(163, 0, 0);
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(163, 0, 0, 0.836);
+  color: #222;
+}
+
+.switch-auth {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.register-link {
+  background: none;
+  border: none;
+  color: rgb(163, 0, 0);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
